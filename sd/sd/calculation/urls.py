@@ -4,5 +4,6 @@ from . import views
 
 # URL Mapping
 urlpatterns = [
-    path('',views.cal_sd,name="cal_sd"),
+    path('calculate',views.calculate,name="calculate"),
 ]
+

@@ -4,6 +4,6 @@ from django.db import models
 class sd(models.Model):
     values = models.CharField(max_length=255)  # Store the values as a comma-separated string
     subgroup_size = models.IntegerField()
+    result = models.FloatField()
 
-    def __str__(self):
-        return f"DataModel #{self.pk}"
+
